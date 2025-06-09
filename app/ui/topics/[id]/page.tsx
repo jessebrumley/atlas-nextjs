@@ -1,4 +1,11 @@
 // app/ui/topics/[id]/page.tsx
-export default function TopicDetail({ params }: { params: { id: string } }) {
+
+interface TopicPageProps {
+    params: {
+        id: string;
+    };
+}
+
+export default function TopicDetail({ params }: TopicPageProps) {
     return <h1>Questions for Topic ID: {params.id}</h1>;
 }
