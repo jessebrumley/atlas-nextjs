@@ -1,4 +1,3 @@
-// app/ui/page.tsx
-export default function UIPage() {
-    return <h1>User Interface</h1>;
+export default function Page() {
+    return <div>Topics Page</div>;
 }

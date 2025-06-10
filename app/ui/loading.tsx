@@ -1,4 +1,5 @@
-// app/ui/loading.tsx
+import { TopicsSkeleton } from "@/components/Skeletons";
+
 export default function Loading() {
-    return <div className="animate-pulse p-4">Loading content...</div>;
+    return <TopicsSkeleton />;
 }
