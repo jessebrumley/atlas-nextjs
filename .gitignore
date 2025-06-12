@@ -24,6 +24,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Comment these out when moving from laptop to desktop
 # local env files
 .env*.local
 .env

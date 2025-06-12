@@ -4,6 +4,7 @@ import TopicLinks from "./TopicLinks";
 import NavLink from "./NavLink";
 import SignOutButton from "./SignOutButton";
 import NewTopicButton from "./NewTopicButton";
+import LoggedInUser from "./LoggedInUser";
 
 export default async function SideNav() {
   return (
@@ -14,6 +15,7 @@ export default async function SideNav() {
         <TopicLinks />
         <div className="hidden h-auto w-full grow rounded-md bg-gray-50 md:block"></div>
         <NewTopicButton />
+        <LoggedInUser />
         <SignOutButton />
       </div>
     </div>
